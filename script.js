@@ -17,7 +17,7 @@ $("#btn").click(function () {
             },
             body: JSON.stringify(data),
         };
-        const url = "http://44.214.182.154:4000/";
+        const url = "https://cors-anywhere.herokuapp.com/http://44.214.182.154:4000/";
 
         fetch(url, options).then((res) => {
             $("#loader").hide();
