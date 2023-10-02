@@ -1,10 +1,6 @@
 :root{
-    background-color: #FBF8BE;
+    background-color: #ebe8e7;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-body{
-    background-color: #FBF8BE!important;
 }
 
 .main{
@@ -22,7 +18,7 @@ h1{
 .box{
     height: auto;
     width: auto;
-    background-color: #234E70;
+    background-color: #3c4f92;
     border-radius: 20px;
     display: flex;
     flex-direction: row;
@@ -44,9 +40,10 @@ h1{
 
 #btn{
     background-color: white;
-    padding: 6px;
+    padding: 8px;
     border-radius: 8px;
     font-size: 16px;
+    border: none;
 }
 
 #btn:active{
@@ -77,6 +74,10 @@ h1{
     font-size: 18px;
     margin: 0;
     margin-top: 14px;
+}
+
+.output p:active{
+    transform: translateY(5px);
 }
 
 @media (max-width: 700px) {
