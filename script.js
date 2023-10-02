@@ -1,6 +1,6 @@
 $("#btn").click(function () {
     $(".output").hide();
-    if ($(window).width() < 600) {
+    if ($(window).width() < 700) {
         $(".box").css({ "padding-top": "5vh", "padding-bottom": "5vh" });
     }
     var text = $("textarea").val();
@@ -27,9 +27,6 @@ $("#btn").click(function () {
                 $(".output p").text(val);
             });
             $(".output").show();
-            if ($(window).width() > 600) {
-                $(".input").css("margin-right", "10vh");
-            }
         })
     } else {
         $(this).after("<br/><p style='color:white'>Enter text!</p>");
